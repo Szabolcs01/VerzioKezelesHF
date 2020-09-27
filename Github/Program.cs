@@ -20,6 +20,8 @@ namespace VerzioKezelesHF
              szamok[i] = int.Parse(Console.ReadLine());
             }
             Console.WriteLine("A be kért szamok átlaga:{0}",szamok.Average());
+            Console.WriteLine("A be kért szamok átlaga:{0}", szamok.Min());
+            Console.WriteLine("A be kért szamok átlaga:{0}", szamok.Max());
             Console.ReadKey();
         }
     }
